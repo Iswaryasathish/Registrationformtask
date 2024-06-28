@@ -1,0 +1,46 @@
+
+h1{
+    color: brown;
+    margin-left: 480px;
+    
+}
+.Register-Form{
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    box-shadow:  0 3px 6px rgba(0,0,0,0.1);
+    background-color: rgb(196, 159, 196);
+    
+}
+.Form-details{
+    margin: 1rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+input,select,textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.error{
+    color: red;
+    font-size: 0.875rem;
+}
+button{
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #0056b3;
+}
